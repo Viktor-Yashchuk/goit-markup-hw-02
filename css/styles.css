@@ -66,8 +66,18 @@ a {
 }
 
 .button-hero {
-  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #404bbf;
 }
 
 .benefits-list-item {
@@ -96,6 +106,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-list-item {
+  background-color: #ffffff;
 }
 
 .team-list-name {
@@ -130,6 +145,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-list-item {
